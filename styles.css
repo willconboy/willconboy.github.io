@@ -1,0 +1,129 @@
+
+body {
+	background-color: #383838;
+	color: #F1D3B3;
+	text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 10px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #5C5552;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #F1D3B3;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+h1 {
+	font-size: 70px;
+}
+h2 {
+	font-size:50px;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+hr {
+	border-top: 1px solid #F1D3B3;
+}
+
+[aria-current ='true']{
+	background-color:#2b2e19;
+}
+
+#personal-info img {
+	max-width: 15%;
+	border-radius: 50%;  
+	height: auto;  
+	margin-top: 30px;
+}
+
+.projects, .project-page, .columns{
+  display: flex;
+  margin: 20px;
+}
+
+#project-half {
+  flex: 1;
+  margin:20px;
+}
+
+#project-text {
+	flex:1;
+	text-align: left;
+	font-size: 25px;
+	margin: auto;
+}
+
+#project-text2 {
+	flex:1;
+	text-align: right;
+	font-size: 25px;
+	margin: auto;
+}
+
+.project-page img {
+	max-width: 90%;
+	margin: 10px;
+}
+
+.projects img {
+	height: 400px;
+	max-width: 90%;
+}
+
+.projects img:hover {
+	height: 450px;
+	max-width: 90%;
+}
+
+iframe {
+	max-width: 90%;
+	height: 850px;
+}
+
+.map {
+	max-width: 50%;
+}
+
+.bio {
+	text-align: left;
+	max-width:80%;
+	margin-bottom:30px;
+	margin-left: 40px;
+	font-size: 20px;
+}
+
+#column{
+	flex:1;
+}
+
+#column img:hover {
+	width: 250px;
+}
+
+h4 {
+	font-size: 30px;
+	color: #86b4ba;
+	text-decoration: none;
+}
+h4:hover{
+	font-size: 32px;
+}
+
+a{
+	text-decoration: none;
+}
